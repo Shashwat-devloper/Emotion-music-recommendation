@@ -1,0 +1,121 @@
+.mainApp-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .imageFileProvider-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .imageFileProvider-contentWrapper {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .imageFileProvider-headingWrapper {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .cameraModule-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            .camera-actionBtn-wrapper {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+
+    .emotionResultLoader-wrapper {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .emotionResultLoader-title {
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+
+    .emotionResult-wrapper {
+        margin-top: 40px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+
+        .emotionResult-value {
+            text-transform: uppercase;
+        }
+    }
+
+    .spotifyPlaylist-wrapper {
+        margin-top: 40px;
+
+        .spotifyPlaylist-noData {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .spotifyPlaylistTable-wrapper {
+            width: 95%;
+            margin: auto;
+        }
+
+        .playlistCover-wrapper {
+            .playlistCover-img {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+
+    .fileInput-wrapper {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+
+        .fileInput-uploadWrapper {
+            display: flex;
+            gap: 10px;
+
+            .fileInput-uploadBtn {
+                cursor: pointer;
+                border: 2px solid #dee2e6;
+                padding: 6px;
+                border-radius: 5px;
+                font-size: 12px;
+                font-weight: 600;
+                background-color: #dee2e6;
+            }
+    
+            .fileInput-hidden {
+                display: none;
+            }
+
+            .fileInput-fileNameWrapper {
+                font-weight: 600;
+                font-size: 15px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .fileInput-removeIcon {
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
